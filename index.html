@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Su dung ham alert-->
+<button type="button" onclick="showMessage();">Click me!</button>
+<script>
+    function showMessage(){
+        alert('Xin chào!');
+    }
+</script>
+
+<!--Su dung the html-->
+<div id="name"></div>
+<button type="button" onclick="family();">Click Me 1!</button>
+<script>
+    function family(){
+        document.getElementById('name').innerHTML = 'Happy Family';
+    }
+</script>
+
+<!--su dung ham document.wirte-->
+<button type="button" onclick="lthp();">Click Me 2!</button>
+<script>
+    function lthp(){
+        document.write('tdt');
+    }
+</script>
+<!--su dung ham console.log-->
+<button type="button" onclick="abcd();">Click Me 3!</button>
+<script>
+    function abcd(){
+        console.log('Xin chào');
+    }
+</script>
+</html>
